@@ -3,11 +3,11 @@ async function main() {
   // mongoose.connect("mongod://localhost:27017/todolistDb", {
   //   useNewUrlParser: true,
   // });
-  // await mongoose.connect(
-  //   "mongodb+srv://arjuncvinod:gdozFKJP7i12I87s@cluster0.yjxy0xp.mongodb.net/todoListDB",
-  //   { useNewUrlParser: true }
+  await mongoose.connect(
+    "mongodb+srv://muskan:<password>@blogwebsite.jue2qrr.mongodb.net/?retryWrites=true&w=majority",
+    { useNewUrlParser: true }
     
-  // );
+  );
   mongoose.connect("mongodb://127.0.0.1:27017/blogWorld") //for local Db
   console.log("profile connected");
 }
