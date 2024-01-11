@@ -4,11 +4,11 @@ async function main() {
   //   useNewUrlParser: true,
   // });
   await mongoose.connect(
-    "mongodb+srv://muskan:<password>@blogwebsite.jue2qrr.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://muskan:moveon@blogwebsite.jue2qrr.mongodb.net/blogwebsite?retryWrites=true&w=majority",
     { useNewUrlParser: true }
     
   );
-  mongoose.connect("mongodb://127.0.0.1:27017/blogWorld") //for local Db
+  // mongoose.connect("mongodb://127.0.0.1:27017/blogWorld") //for local Db
   console.log("profile connected");
 }
 main();
